@@ -83,3 +83,19 @@ p {
   border: 1px solid white;
   background: white;
 }
+
+.z-index-x {
+  z-index: 10;
+}
+
+iframe {
+  z-index: -1;
+}
+
+.bg-contact {
+  background: rgba(0, 0, 0, 0.87);
+}
+
+ul li a:hover {
+  background:black;
+}

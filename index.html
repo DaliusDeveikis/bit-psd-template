@@ -24,6 +24,7 @@
       <!-- *** HEADER START *** -->
       <div
         class="row h-75 bg-danger d-flex justify-content-center align-items-center"
+        id="header-id"
       >
         <!-- nav start -->
         <div
@@ -43,14 +44,34 @@
             class="col-7 d-flex justify-content-between align-items-center overflow-auto"
           >
             <ul class="list-group list-group-horizontal w-100">
-              <li class="list-group-item transperent-bg text-white">Home</li>
-              <li class="list-group-item transperent-bg text-white">About</li>
-              <li class="list-group-item transperent-bg text-white">Team</li>
               <li class="list-group-item transperent-bg text-white">
-                Portfolio
+                <a href="#header-id" class="btn btn-sm text-white w-100"
+                  >Home</a
+                >
               </li>
-              <li class="list-group-item transperent-bg text-white">Other</li>
-              <li class="list-group-item transperent-bg text-white">Contact</li>
+              <li class="list-group-item transperent-bg text-white">
+                <a href="#about-id" class="btn btn-sm text-white w-100"
+                  >About</a
+                >
+              </li>
+              <li class="list-group-item transperent-bg text-white">
+                <a href="#team-id" class="btn btn-sm text-white w-100">Team</a>
+              </li>
+              <li class="list-group-item transperent-bg text-white">
+                <a href="#portfolio-id" class="btn btn-sm text-white w-100"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="list-group-item transperent-bg text-white">
+                <a href="#other-id" class="btn btn-sm text-white w-100"
+                  >Other</a
+                >
+              </li>
+              <li class="list-group-item transperent-bg text-white">
+                <a href="#footer-id" class="btn btn-sm text-white w-100"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -123,6 +144,7 @@
       <!-- *** ABOUT START *** -->
       <div
         class="row h-25 bg-black d-flex justify-content-center align-items-center"
+        id="about-id"
       >
         <div class="row text-center text-white h-10 pt-3">
           <h5 class="font-monospace">Smart & Creative</h5>
@@ -163,6 +185,7 @@
       <!-- *** TEAM START *** -->
       <div
         class="row h-25 bg-success d-flex justify-content-center align-items-center"
+        id="team-id"
       >
         <div class="row text-center text-white h-10 pt-3">
           <h5 class="font-monospace">Talented & Experts</h5>
@@ -256,6 +279,7 @@
       <!-- PORTFOLIO START -->
       <div
         class="row h-50 bg-light d-flex justify-content-center align-items-center"
+        id="portfolio-id"
       >
         <div class="row text-center text-black h-10 pt-3">
           <h5 class="font-monospace">Elegant & Genuine</h5>
@@ -509,10 +533,7 @@
             <small>$</small>
             <h1>15</h1>
             <h4>/mo</h4>
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-sm btn-light h-25"
+            <a href="#" target="_blank" class="btn btn-sm btn-light h-25"
               >Order</a
             >
           </div>
@@ -544,10 +565,7 @@
             <small>$</small>
             <h1>25</h1>
             <h4>/mo</h4>
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-sm btn-light h-25"
+            <a href="#" target="_blank" class="btn btn-sm btn-light h-25"
               >Order</a
             >
           </div>
@@ -578,34 +596,86 @@
             <small>$</small>
             <h1>35</h1>
             <h4>/mo</h4>
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-sm btn-light h-25"
+            <a href="#" target="_blank" class="btn btn-sm btn-light h-25"
               >Order</a
             >
           </div>
         </div>
         <!-- card three end -->
 
-        <p class="text-center p-1 text-danger">And more avaible plans for all needs ...<a href="#" class="btn btn-sm text-danger">Check here</a> </p>
-
-
+        <p class="text-center p-1 text-danger">
+          And more avaible plans for all needs ...<a
+            href="#"
+            class="btn btn-sm text-danger"
+            >Check here</a
+          >
+        </p>
       </div>
-
       <!-- PRICE & PLAN END -->
 
-      <div class="row"></div>
-      <div class="row"></div>
+      <!-- OTHER STUFF // tweets -->
+      <div class="row bg-danger text-center h-25 pt-3" id="other-id">
+        <h5 class="font-monospace text-white">Latest Tweets</h5>
+        <p class="text-black">This is how to keep in touch :)</p>
+        <h5 class="text-white"><i class="bi bi-twitter"></i></h5>
+        <p class="text-black">@Abd-alragaman Eglazzas</p>
+        <p class="text-white">
+          Great work Abd-Alrahaman, i really love the application ... hope you
+          haveall the luck in ur life.. also have alook here http://t.co/zasadf
+        </p>
+      </div>
+      <!-- OTHER STUFF // tweets END -->
+
+      <!-- information about creators -->
+      <div class="row bg-black text-white text-center">
+        <ul
+          class="list-inline d-flex justify-content-around align-items-center pt-2"
+        >
+          <li class="list-inline-item">
+            @ 2013 Motion Template. Design by Begha
+          </li>
+          <li class="list-inline-item text-danger">
+            @ 2022 Created template from psd file by Dalius D.
+          </li>
+        </ul>
+      </div>
+      <!-- information about creators end -->
     </div>
     <!-- container-fluid end -->
   </body>
-  <footer>
+  <!-- body end -->
+
+  <!-- footer & contact -->
+  <footer
+    class="d-flex justify-content-center align-items-center position-relative"
+    id="footer-id"
+  >
+    <div
+      class="bg-contact h-25 w-50 z-index-x text-center position-absolute top-50 start-50 translate-middle"
+    >
+      <h4 class="text-white">Contact Us</h4>
+      <p class="text-danger">example@gmail.com</p>
+      <p class="text-danger">Taikos pr. 330A-25, Klaipeda . Lithuania</p>
+    </div>
+
+    <!-- iframe from google maps -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143876.09067089713!2d21.01781072076044!3d55.705260737759666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e4dbfae447448b%3A0x80acbc67146d87a1!2zS2xhaXDEl2Rh!5e0!3m2!1slt!2slt!4v1642944188169!5m2!1slt!2slt"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+    <!-- iframe from google maps end -->
+
     <!-- boostrap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- boostrap script end -->
   </footer>
+  <!-- footer & contact end -->
 </html>
