@@ -19,6 +19,10 @@
   height: 90vh;
 }
 
+.h-45 {
+  height: 45vh;
+}
+
 .nav-bg-color {
   background: rgba(248, 248, 248, 0.082);
 }
@@ -67,4 +71,15 @@ p {
   content: '<';
   font-size: 3rem;
   color: black;
+}
+.mt--56 {
+  margin-top: -5.4rem;
+  border: 1px solid white;
+  background: white;
+}
+
+.mt--58 {
+  margin-top: -6.2rem;
+  border: 1px solid white;
+  background: white;
 }
