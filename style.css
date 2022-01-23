@@ -1,0 +1,32 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+.list-group li {
+  border: none;
+}
+
+.h-10 {
+  height: 10vh;
+}
+
+.h-90 {
+  height: 90vh;
+}
+
+.nav-bg-color {
+  background: rgba(248, 248, 248, 0.082);
+}
+
+.transperent-bg {
+  background: rgba(255, 0, 0, 0);
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
