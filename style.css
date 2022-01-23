@@ -7,7 +7,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
 .list-group li {
   border: none;
 }
@@ -30,4 +29,42 @@
 
 p {
   font-size: 0.7rem;
+}
+
+.carousel-indicators-porfolio [data-bs-target] {
+  width: 10px; 
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-portfolio  {
+  height: 13rem;
+}
+
+.carousel-control-prev {
+  margin-left: -4rem;
+  margin-top: -5rem;
+}
+
+.carousel-control-next {
+  margin-right: -4rem;
+  margin-top: -5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3rem;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3rem;
+  color: black;
 }
